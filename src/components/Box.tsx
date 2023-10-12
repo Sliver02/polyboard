@@ -4,7 +4,7 @@ import { useContext, useState } from "react";
 
 const Box = (props: any) => {
   const [hovered, setHovered] = useState(false);
-  const { target, setTarget } = useContext(GlobalContext);
+  const { setTarget } = useContext(GlobalContext);
 
   useCursor(hovered);
 

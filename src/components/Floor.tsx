@@ -1,5 +1,3 @@
-import { MeshProps } from "@react-three/fiber";
-
 const Floor = (props: any) => {
   return (
     <mesh {...props} receiveShadow>
